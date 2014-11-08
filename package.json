@@ -1,0 +1,35 @@
+{
+  "name": "phaser-ui",
+  "description": "",
+  "readme": "",
+  "repository": "",
+  "version": "0.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "bower": "*",
+    "del": "*",
+    "gulp": "*",
+    "gulp-concat": "*",
+    "gulp-concat-sourcemap": "*",
+    "gulp-connect": "*",
+    "gulp-gh-pages": "*",
+    "gulp-less": "*",
+    "gulp-minify-css": "*",
+    "gulp-minify-html": "*",
+    "gulp-mocha-phantomjs": "*",
+    "gulp-open": "*",
+    "gulp-processhtml": "*",
+    "gulp-sourcemaps": "*",
+    "gulp-typescript": "*",
+    "gulp-uglifyjs": "*",
+    "gulp-util": "*",
+    "gulp-watch": "*",
+    "run-sequence": "*"
+  },
+  "scripts": {
+    "post-install": "node ./node_modules/bower/bin/bower install",
+    "start": "node ./node_modules/gulp/bin/gulp.js",
+    "build": "node ./node_modules/gulp/bin/gulp.js build",
+    "lint": "node ./node_modules/gulp/bin/gulp.js lint"
+  }
+}
